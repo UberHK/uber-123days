@@ -1,0 +1,19 @@
+{
+  "id": "1502548498177",
+  "folders": ["file:///Users/billykwok/Projects/Web/uber-123days"],
+  "settings": {
+    "files.trimTrailingWhitespace": true,
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "vsicons.presets.jsOfficial": true,
+    "javascript.validate.enable": false,
+    "css.validate": false,
+    "scss.validate": false,
+    "telemetry.enableTelemetry": false,
+    "vsicons.projectDetection.autoReload": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "cSpell.showStatus": false,
+    "cSpell.enabled": false,
+    "editor.formatOnSave": true
+  }
+}
