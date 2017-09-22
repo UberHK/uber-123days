@@ -8,9 +8,6 @@ import Helmet from '../components/Helmet';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import './index.css';
-import './fonts.css';
-
 const Frame = styled.div`
   text-align: center;
   background-color: #111;

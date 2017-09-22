@@ -1251,17 +1251,13 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@6.17.3:
-  version "6.17.3"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.3.tgz#1327d709950b558f204e5352587fd0290f8d8e48"
+babylon@6.18.0, babylon@^6.17.2, babylon@^6.17.3, babylon@^6.18.0:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
 babylon@7.0.0-beta.22:
   version "7.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.22.tgz#74f0ad82ed7c7c3cfeab74cf684f815104161b65"
-
-babylon@^6.17.2, babylon@^6.17.3, babylon@^6.18.0:
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
 backo2@1.0.2:
   version "1.0.2"
@@ -2752,10 +2748,6 @@ eslint-config-airbnb@^15.1.0:
   dependencies:
     eslint-config-airbnb-base "^11.3.0"
 
-eslint-config-fbjs@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-fbjs/-/eslint-config-fbjs-1.1.1.tgz#dd29f8d912e8a755257e9eeef00bae1cce57f73a"
-
 eslint-config-prettier@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.5.0.tgz#9ecb9296bae4e2e59a3ce361a96c9f825fe67b75"
@@ -3467,8 +3459,8 @@ gatsby-react-router-scroll@^1.0.1:
     warning "^3.0.0"
 
 gatsby@^1.9.42:
-  version "1.9.42"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.42.tgz#6792442e9b7f69e7d2b3e76b63b468de097c61c6"
+  version "1.9.43"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.43.tgz#e4a495f424f7ae4dc676701d56d47d3512cd374d"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3557,7 +3549,7 @@ gatsby@^1.9.42:
     react-router "^4.1.1"
     react-router-dom "^4.1.1"
     redux "^3.6.0"
-    relay-compiler "^1.1.0"
+    relay-compiler "1.3.0"
     remote-redux-devtools "^0.5.7"
     resolve-cwd "^2.0.0"
     sift "^3.2.6"
@@ -6897,9 +6889,9 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
-relay-compiler@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-1.2.0.tgz#5b216021eea030ac518b7566bf165bfa4e69d18b"
+relay-compiler@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-1.3.0.tgz#c8df1fde2439d14beeb37be69eea48952927af68"
   dependencies:
     babel-generator "6.25.0"
     babel-polyfill "^6.23.0"
@@ -6907,24 +6899,28 @@ relay-compiler@^1.1.0:
     babel-runtime "^6.23.0"
     babel-traverse "6.25.0"
     babel-types "6.25.0"
-    babylon "6.17.3"
+    babylon "6.18.0"
     chalk "^1.1.3"
-    eslint-config-fbjs "^1.1.1"
     fast-glob "^1.0.1"
     fb-watchman "^2.0.0"
     fbjs "^0.8.1"
     graphql "^0.10.5"
     immutable "^3.8.1"
-    relay-runtime "1.2.0"
+    relay-runtime "1.3.0"
     signedsource "^1.0.0"
     yargs "^7.0.2"
 
-relay-runtime@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-1.2.0.tgz#d2ed002c9accaa2f1dfdb96f02d0dcd0b40c4376"
+relay-debugger-react-native-runtime@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/relay-debugger-react-native-runtime/-/relay-debugger-react-native-runtime-0.0.9.tgz#f9da4bb1f4f4a62189775d3850a18df1d528a4f1"
+
+relay-runtime@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-1.3.0.tgz#ec59db0ade1f665b37ff25f72cec4113b9e2cb8b"
   dependencies:
     babel-runtime "^6.23.0"
     fbjs "^0.8.1"
+    relay-debugger-react-native-runtime "^0.0.9"
 
 remarkable@^1.7.1:
   version "1.7.1"
