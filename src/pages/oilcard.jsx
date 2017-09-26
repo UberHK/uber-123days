@@ -1,4 +1,4 @@
 // @flow
-import Oilcard from '../components/PageOilcard';
+import Oilcard from '../components/PageOilCard';
 
 export default Oilcard;
