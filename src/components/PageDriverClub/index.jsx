@@ -5,23 +5,32 @@ import React from 'react';
 import PagePost from '../PagePost';
 import FullWidth from '../FullWidth';
 import Container from '../Container';
+import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
 const PageDriverClub = () => (
   <PagePost
-    back="#sept-event"
-    title="特別活動"
-    introduction="九月初，我們會邀請一班優秀司機夥伴及家人參加晚宴及抽獎活動。之後我們會繼續舉辦不同活動，敬請期待！"
+    back="#driver-club"
+    title="優御會"
+    introduction="作為全港最大車會，全新優御會網站讓你更輕鬆體驗會員優惠，隨時隨地換領禮物及報名參加精彩活動。十月份我們特別為司機夥伴準備了更豐富的禮品供換領，數量有限，先換先得。優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，尊享更多油費折扣優惠。"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/cheer.jpg')}>
-          <p>一路走來，你並不孤單。你的身後，一直都有我們和各位師兄師姐為你撐腰打氣！</p>
-          <p>
-            九月初，我們會特別邀請特選司機夥伴及家人一起參加慶祝晚宴暨「123日改變」啟動儀式，讓大家聚首一堂，訴說上線的苦與樂。期後我們將繼續舉辦不同活動，與你一起建設更緊密溫馨的司機夥伴社群。敬請熱切期待。
-          </p>
-        </PrimaryImage>
+        <PrimaryImage src={require('./images/cheer.jpg')} />
+        <Paragraph>
+          立即前往最新優御會網站：
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.driveuber.hk"
+          >
+            https://www.driveuber.hk
+          </a>
+        </Paragraph>
+        <Paragraph>
+          <h3>全新禮品</h3>
+        </Paragraph>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

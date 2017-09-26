@@ -10,18 +10,19 @@ import SuggestedPage from '../PagePost/SuggestedPage';
 
 const PageAirport = () => (
   <PagePost
-    back="#sept-event"
-    title="特別活動"
-    introduction="九月初，我們會邀請一班優秀司機夥伴及家人參加晚宴及抽獎活動。之後我們會繼續舉辦不同活動，敬請期待！"
+    back="#airport"
+    title="機場前往市區補貼"
+    introduction="完成往機場範圍之行程後，即時前往市區接單，將獲 HK$50 補貼。"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
         <PrimaryImage src={require('./images/cheer.jpg')}>
-          <p>一路走來，你並不孤單。你的身後，一直都有我們和各位師兄師姐為你撐腰打氣！</p>
           <p>
-            九月初，我們會特別邀請特選司機夥伴及家人一起參加慶祝晚宴暨「123日改變」啟動儀式，讓大家聚首一堂，訴說上線的苦與樂。期後我們將繼續舉辦不同活動，與你一起建設更緊密溫馨的司機夥伴社群。敬請熱切期待。
+            我們深知你希望把握每一分、每一秒在行程途中，增加行程收入。有時候在機場範圍等候時間較長，我們建議司機夥伴前往市區接單。若你在指定日期及時間*內，完成往機場範圍之行程後，即時前往市區接單，將額外獲得
+            HK$50 作為補貼。
           </p>
         </PrimaryImage>
+        <p>* 機場前往市區補貼在指定時間生效時，司機夥伴會收到 app 內訊息提示。</p>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

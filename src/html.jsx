@@ -11,9 +11,6 @@ if (process.env.NODE_ENV === 'production') {
   } catch (e) {
     console.log(e);
   }
-} else {
-  require('./styles/fonts.css');
-  require('./styles/index.css');
 }
 
 const HTML = props => {

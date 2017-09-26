@@ -8,6 +8,11 @@ import Helmet from '../components/Helmet';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+if (process.env.NODE_ENV !== 'production') {
+  require('../styles/fonts.css');
+  require('../styles/index.css');
+}
+
 const Frame = styled.div`
   text-align: center;
   background-color: #111;
