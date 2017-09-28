@@ -10,6 +10,7 @@ import Container from '../Container';
 import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import NormalImage from '../PagePost/NormalImage';
+import NormalImageRight from '../PagePost/NormalImageRight';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
 const Table = styled.table`
@@ -100,7 +101,7 @@ const PageMonthlyStar = () => (
             不時會有來自世界各地的乘客，所以基本的英語對答技巧也是不可或缺的。
           </p>
         </NormalImage>
-        <NormalImage src={require('./images/aug-star-ken.png')}>
+        <NormalImageRight src={require('./images/aug-star-ken.png')}>
           <h4>「關懷備至」得主 － Ken</h4>
           <p>
             Ken 當初經朋友介紹加入 Uber，雖然只是短短半年，但已完成超過三千次行程。被問及參與「關懷優步」培訓的原因，他表示希望藉此更投入
@@ -109,7 +110,7 @@ const PageMonthlyStar = () => (
           <p>
             他分享了其中兩次「關懷優步」行程的經歷，其中一次他接載一位初次使用「關懷優步」的視障人士，該乘客問了很多相關問題，下車時更主動向他索取聯絡資料；另一次他接載一位打石膏的外籍人士，雖然言語不通，但他都盡力嘗試了解乘客的需要，協助乘客上下車並順利抵達目的地。這些經歷看似微不足道，但乘客的認同為他帶來滿足感，促使他繼續成為「關懷優步」司機夥伴的一份子，幫助有需要人士。
           </p>
-        </NormalImage>
+        </NormalImageRight>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

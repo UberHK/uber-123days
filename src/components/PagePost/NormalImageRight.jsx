@@ -14,9 +14,12 @@ const Image = styled.img`
   margin-bottom: 1rem;
   ${Media.fromWidth('LG').css`
     width: 16rem;
+    position: relative;
+    left: 29.5rem;
   `};
   ${Media.fromWidth('XL').css`
     width: 20rem;
+    left: 43.5rem;
   `};
 `;
 
@@ -31,15 +34,18 @@ const Description = styled.div`
     margin: 0;
   }
   ${Media.fromWidth('LG').css`
+    position: relative;
+    left: -16rem;
     padding: 0;
-    padding-left: 1.5rem;
+    padding-right: 1rem;
     width: 29.5rem;
     p {
       font-size: 1.125rem;
     }
   `};
   ${Media.fromWidth('XL').css`
-    padding-left: 2rem;
+    left: -20rem;
+    padding-right: 2rem;
     width: 43.5rem;
   `};
 `;
