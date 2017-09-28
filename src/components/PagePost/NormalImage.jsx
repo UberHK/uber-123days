@@ -10,8 +10,11 @@ const Container = styled.div`margin-bottom: 3rem;`;
 
 const Image = styled.img`
   background: #eee;
-  width: 24rem;
+  width: 100%;
   margin-bottom: 1rem;
+  ${Media.fromWidth('SM').css`
+    width: 24rem;
+  `};
   ${Media.fromWidth('LG').css`
     width: 16rem;
   `};
