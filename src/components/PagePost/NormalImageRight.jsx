@@ -16,13 +16,13 @@ const Image = styled.img`
     width: 24rem;
   `};
   ${Media.fromWidth('LG').css`
-    width: 16rem;
+    width: 20rem;
     position: relative;
-    left: 29.5rem;
+    left: 25.5rem;
   `};
   ${Media.fromWidth('XL').css`
-    width: 20rem;
-    left: 43.5rem;
+    width: 26rem;
+    left: 37.5rem;
   `};
 `;
 
@@ -36,20 +36,31 @@ const Description = styled.div`
   h4 {
     margin: 0;
   }
+  p {
+    font-size: 1.125rem;
+  }
   ${Media.fromWidth('LG').css`
     position: relative;
-    left: -16rem;
+    left: -20rem;
     padding: 0;
     padding-right: 1rem;
-    width: 29.5rem;
+    width: 25.5rem;
     p {
-      font-size: 1.125rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   `};
   ${Media.fromWidth('XL').css`
-    left: -20rem;
+    padding-top: 1rem;
+    left: -26rem;
     padding-right: 2rem;
-    width: 43.5rem;
+    width: 37.5rem;
+    p {
+      font-size: 1.125rem;
+      margin-top: 1rem;
+      margin-bottom: 1.25rem;
+    }
   `};
 `;
 
