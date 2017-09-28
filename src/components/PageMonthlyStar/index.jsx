@@ -9,6 +9,7 @@ import FullWidth from '../FullWidth';
 import Container from '../Container';
 import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
+import NormalImage from '../PagePost/NormalImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
 const Table = styled.table`
@@ -58,8 +59,8 @@ const PageMonthlyStar = () => (
       <Container padding="1rem 3rem">
         <h3>八月「每月之星」</h3>
         <Paragraph>
-          我們早前在 Uber 司機夥伴慶祝晚宴暨「123日改變」啟動儀式上頒發了八月「每月之星」獎項及價值$3,000的 Shell
-          油咭，答謝表現超卓的司機夥伴。我們再次感謝各位司機夥伴為共乘交通出一分力。
+          我們早前在 Uber 司機夥伴慶祝晚宴暨「123日改變」啟動儀式上頒發了八月「每月之星」，每位得獎司機夥伴均獲贈精美獎座及價值
+          HK$3,000 的 Shell 油咭，以答謝他們的超卓表現。我們再次感謝各位司機夥伴為共乘交通出一分力。
         </Paragraph>
         <h4>八月「每月之星」得獎名單</h4>
         <Table>
@@ -90,16 +91,16 @@ const PageMonthlyStar = () => (
           </tr>
         </Table>
         <h4>八月「每月之星」得獎司機夥伴分享</h4>
-        <Paragraph>我們訪問了其中兩位八月得獎司機夥伴分享他們的獲獎心得和駕駛小故事。</Paragraph>
-        <Paragraph>
+        <Paragraph>想成為下月的「每月之星」？立即觀看其中兩位八月得獎司機夥伴的訪問，了解他們的獲獎心得和駕駛小故事。</Paragraph>
+        <NormalImage src={require('./images/aug-star-man.png')}>
           <h4>「榮譽勳章」得主 － 阿文</h4>
           <p>
             阿文成為 Uber 司機夥伴已有一年半時間，他十分喜歡 Uber 的概念，更表示駕駛 Uber
             是他的夢想，能滿足自己喜歡駕駛的心和為他帶來收入之餘，彈性上線時間亦使他更容易安排時間照顧家人。他指自己從未試過獲獎，所以很高興獲得乘客的認同。被問到獲獎的心得，他認為自己以往作為酒店及私人司機的經驗有助他更易了解乘客的心態，例如他觀察到有些乘客比較健談，就會主動跟他們聊天。最後，他透露了一些獲取高評分的小貼士，他認為最重要是在乘客上車時打招呼和對路面情況熟悉。另外，Uber
             不時會有來自世界各地的乘客，所以基本的英語對答技巧也是不可或缺的。
           </p>
-        </Paragraph>
-        <Paragraph>
+        </NormalImage>
+        <NormalImage src={require('./images/aug-star-ken.png')}>
           <h4>「關懷備至」得主 － Ken</h4>
           <p>
             Ken 當初經朋友介紹加入 Uber，雖然只是短短半年，但已完成超過三千次行程。被問及參與「關懷優步」培訓的原因，他表示希望藉此更投入
@@ -108,7 +109,7 @@ const PageMonthlyStar = () => (
           <p>
             他分享了其中兩次「關懷優步」行程的經歷，其中一次他接載一位初次使用「關懷優步」的視障人士，該乘客問了很多相關問題，下車時更主動向他索取聯絡資料；另一次他接載一位打石膏的外籍人士，雖然言語不通，但他都盡力嘗試了解乘客的需要，協助乘客上下車並順利抵達目的地。這些經歷看似微不足道，但乘客的認同為他帶來滿足感，促使他繼續成為「關懷優步」司機夥伴的一份子，幫助有需要人士。
           </p>
-        </Paragraph>
+        </NormalImage>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>
