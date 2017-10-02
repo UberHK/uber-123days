@@ -9,11 +9,11 @@ import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
-const PageDriverClub = () => (
+const PageMomentum = () => (
   <PagePost
     back="#driver-club"
     title="優御會"
-    introduction="作為全港最大車會，全新優御會網站讓你更輕鬆體驗會員優惠，隨時隨地換領禮物及報名參加精彩活動。十月份我們特別為司機夥伴準備了更豐富的禮品供換領，數量有限，先換先得。優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，尊享更多油費折扣優惠。"
+    introduction="作為全港最大車會，全新優御會網站讓你更輕鬆體驗會員優惠，隨時隨地換領禮物及報名參加精彩活動。十月份我們特別為司機夥伴準備了更豐富的禮品供換領，數量有限，先換先得。優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，可享其他升級折扣優惠。"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
@@ -48,4 +48,4 @@ const PageDriverClub = () => (
   </PagePost>
 );
 
-export default PageDriverClub;
+export default PageMomentum;

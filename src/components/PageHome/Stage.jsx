@@ -118,7 +118,7 @@ const Events = ({ activeStage }: { activeStage: 1 | 2 | 3 }) => {
 
 class Stage extends React.Component {
   state = {
-    activeStage: 1
+    activeStage: 2
   };
 
   selectStage = index => {
@@ -142,7 +142,6 @@ class Stage extends React.Component {
               id={2}
               active={this.state.activeStage === 2}
               onClick={() => this.selectStage(2)}
-              disabled
             >
               第二階段
             </Icon>

@@ -9,9 +9,9 @@ import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
-const LostItems = () => (
+const PageLostAndFound = () => (
   <PagePost
-    back="#sept-event"
+    back="#lost-and-found"
     title="乘客失物處理「路不拾遺獎勵計劃」"
     introduction="九月初，我們會邀請一班優秀司機夥伴及家人參加晚宴及抽獎活動。之後我們會繼續舉辦不同活動，敬請期待！"
   >
@@ -54,4 +54,4 @@ const LostItems = () => (
   </PagePost>
 );
 
-export default LostItems;
+export default PageLostAndFound;

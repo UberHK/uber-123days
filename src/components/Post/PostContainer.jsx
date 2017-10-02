@@ -11,7 +11,7 @@ const PostContainer = styled(Link)`
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  height: 19rem;
+  height: 20rem;
   margin-bottom: 0.75rem;
   background: #fff;
   overflow: hidden;

@@ -21,10 +21,10 @@ const Container = PostContainer.extend`
   `};
   ${Media.fromWidth('LG').css`
     width: 24.375rem;
+    height: 24rem;
   `};
   ${Media.fromWidth('XL').css`
     width: 33.375rem;
-    height: 24rem;
   `};
 `;
 
