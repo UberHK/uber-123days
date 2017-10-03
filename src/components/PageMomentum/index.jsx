@@ -34,14 +34,17 @@ const PageMomentum = () => (
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>
-        <SuggestedPage to="/GLH" bg={require('../PageHome/images/glh.jpg')}>
-          全新 Uber 服務中心
+        <SuggestedPage
+          to="/monthly-star"
+          bg={require('../PageHome/images/monthly-star-2.png')}
+        >
+          每月之星
         </SuggestedPage>
         <SuggestedPage
-          to="/24-hour-hotline"
-          bg={require('../PageHome/images/24-hour-hotline.jpg')}
+          to="/airport"
+          bg={require('../PageHome/images/airport.png')}
         >
-          24 小時司機夥伴支援熱線
+          機場前往市區補貼
         </SuggestedPage>
       </Container>
     </FullWidth>

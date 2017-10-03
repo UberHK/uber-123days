@@ -33,7 +33,7 @@ const PageMonthlyStar = () => (
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/prize.jpg')}>
+        <PrimaryImage src={require('./images/monthly-star-2.png')}>
           <p>
             Uber 能廣受香港人歡迎，全因有你和各位司機夥伴一直提供優質可靠的共乘服務。為表揚平台上優秀的司機夥伴， 並鼓勵各位師兄師姐與
             Uber 一起進步，由九月到十一月，將會有共15位司機夥伴成為 Uber「每月之星」及特別獎賞！
@@ -118,13 +118,16 @@ const PageMonthlyStar = () => (
       <Container padding="3rem">
         <h3>其他相關活動</h3>
         <SuggestedPage
-          to="/sept-event"
-          bg={require('../PageHome/images/sept-event.jpg')}
+          to="/airport"
+          bg={require('../PageHome/images/airport.png')}
         >
-          特別活動
+          機場前往市區補貼
         </SuggestedPage>
-        <SuggestedPage to="/GLH" bg={require('../PageHome/images/glh.jpg')}>
-          全新 Uber 服務中心
+        <SuggestedPage
+          to="/lost-and-found"
+          bg={require('../PageHome/images/lost_and_found.png')}
+        >
+          路不拾遺獎勵計劃
         </SuggestedPage>
       </Container>
     </FullWidth>

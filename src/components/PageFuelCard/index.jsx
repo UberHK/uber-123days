@@ -53,14 +53,17 @@ const PageOilCard = () => (
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>
-        <SuggestedPage to="/GLH" bg={require('../PageHome/images/glh.jpg')}>
-          全新 Uber 服務中心
+        <SuggestedPage
+          to="/momentum"
+          bg={require('../PageHome/images/momentum.png')}
+        >
+          優御會
         </SuggestedPage>
         <SuggestedPage
-          to="/24-hour-hotline"
-          bg={require('../PageHome/images/24-hour-hotline.jpg')}
+          to="/monthly-star"
+          bg={require('../PageHome/images/monthly-star-2.png')}
         >
-          24 小時司機夥伴支援熱線
+          每月之星
         </SuggestedPage>
       </Container>
     </FullWidth>

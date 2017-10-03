@@ -50,14 +50,17 @@ const PageLostAndFound = () => (
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>
-        <SuggestedPage to="/GLH" bg={require('../PageHome/images/glh.jpg')}>
-          全新 Uber 服務中心
+        <SuggestedPage
+          to="/oct-event"
+          bg={require('../PageHome/images/oct-event.png')}
+        >
+          特別活動
         </SuggestedPage>
         <SuggestedPage
-          to="/24-hour-hotline"
-          bg={require('../PageHome/images/24-hour-hotline.jpg')}
+          to="/fuel-card"
+          bg={require('../PageHome/images/fuel-card.png')}
         >
-          24 小時司機夥伴支援熱線
+          Shell 油咭優惠升級
         </SuggestedPage>
       </Container>
     </FullWidth>

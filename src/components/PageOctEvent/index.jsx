@@ -113,14 +113,17 @@ class PageOctEvent extends React.Component {
           </Container>
           <Container padding="3rem">
             <h3>其他相關活動</h3>
-            <SuggestedPage to="/GLH" bg={require('../PageHome/images/glh.jpg')}>
-              全新 Uber 服務中心
+            <SuggestedPage
+              to="/fuel-card"
+              bg={require('../PageHome/images/fuel-card.png')}
+            >
+              Shell 油咭優惠升級
             </SuggestedPage>
             <SuggestedPage
-              to="/24-hour-hotline"
-              bg={require('../PageHome/images/24-hour-hotline.jpg')}
+              to="/momentum"
+              bg={require('../PageHome/images/momentum.png')}
             >
-              24 小時司機夥伴支援熱線
+              優御會
             </SuggestedPage>
           </Container>
         </FullWidth>
