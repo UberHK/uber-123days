@@ -45,10 +45,6 @@ const PageOilCard = () => (
         <Paragraph>
           <h3>究竟每個月可以慳幾多錢？</h3>
           <PrimaryImage src={require('./images/how-much-can-be-saved.png')} />
-          <p>Prius 入滿一缸油約 HK$600，每缸油折扣後節省超過 HK$100！</p>
-          <p>Alphard 入滿一缸油約 HK$800，每缸油折扣後節省超過 HK$140！</p>
-          <p>如用每週入油量300公升計，你每週將節省 HK$810！</p>
-          <p>如你每月入油量為1,000公升，每月將節省 HK$2,700！</p>
         </Paragraph>
       </Container>
       <Container padding="3rem">

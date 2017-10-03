@@ -13,13 +13,14 @@ const PageMomentum = () => (
   <PagePost
     back="#driver-club"
     title="優御會"
-    introduction="作為全港最大車會，全新優御會網站讓你更輕鬆體驗會員優惠，隨時隨地換領禮物及報名參加精彩活動。十月份我們特別為司機夥伴準備了更豐富的禮品供換領，數量有限，先換先得。優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，可享其他升級折扣優惠。"
+    introduction="作為全港最大車會，全新優御會網站讓你更輕鬆體驗會員優惠，隨時隨地換領禮物及報名參加精彩活動。十月份我們特別為司機夥伴準備了更豐富的禮品供換領，數量有限，先換先得。"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/momentum.png')} />
-        <Paragraph>
-          立即前往最新優御會網站：
+        <PrimaryImage src={require('./images/momentum.png')}>
+          <p>
+            優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，可享其他升級折扣優惠。
+          </p>立即前往最新優御會網站：
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -27,9 +28,19 @@ const PageMomentum = () => (
           >
             https://www.driveuber.hk
           </a>
-        </Paragraph>
+        </PrimaryImage>
+        <Paragraph />
         <Paragraph>
           <h3>全新禮品</h3>
+          <p>
+            立即前往優御會禮品換領區：<a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.driveuber.hk/shop"
+            >
+              https://www.driveuber.hk/shop
+            </a>
+          </p>
         </Paragraph>
       </Container>
       <Container padding="3rem">

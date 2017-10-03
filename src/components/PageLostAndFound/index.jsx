@@ -1,6 +1,8 @@
 // @flow
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import styled from 'styled-components';
 
 import PagePost from '../PagePost';
 import FullWidth from '../FullWidth';
@@ -8,6 +10,11 @@ import Container from '../Container';
 import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
+
+const Li = styled.li`
+  line-height: 2;
+  font-size: 1.125rem;
+`;
 
 const PageLostAndFound = () => (
   <PagePost
@@ -23,29 +30,19 @@ const PageLostAndFound = () => (
           <p>除此之外，你亦可以將物品送到 Uber 服務中心，我們會代你聯絡乘客取回物品，節省你和乘客相約的時間。</p>
         </PrimaryImage>
         <Paragraph>
-          <p>當然，你亦可在乘客下車前，提醒他們檢查有否帶齊所有隨身物品！感謝你一直以來為乘客提供五星的行程體驗。</p>
-          <h3>計劃詳情</h3>
-          <p>
-            路不拾遺獎勵試行計劃適用於2017年10月3日至12月31日期間完成的行程。 乘客只要在2017年12月31日前到 Uber
-            服務中心取回物件，司機夥伴便會在一星期内收到 HK$100 的路不拾遺獎勵。 Uber
-            服務中心並不能代司機夥伴處理任何食物、現金、信用卡、有害物品、武器、藥物及其他非法物品。
-          </p>
+          <p>與此同時，你亦可在乘客下車前，提醒他們檢查有否帶齊所有隨身物品！感謝你一直以來為乘客提供五星的行程體驗。</p>
+          <h3 style={{ marginTop: '4rem' }}>計劃詳情</h3>
+          <ol>
+            <Li>
+              路不拾遺獎勵試行計劃適用於2017年10月3日至12月31日期間完成的行程。 乘客只要在2017年12月31日前到 Uber
+            </Li>
+            <Li>服務中心取回物件，司機夥伴便會在一星期内收到 HK$100 的路不拾遺獎勵。 Uber</Li>
+            <Li>服務中心並不能代司機夥伴處理任何食物、現金、信用卡、有害物品、武器、藥物及其他非法物品。</Li>
+          </ol>
         </Paragraph>
         <Paragraph>
           <h3>【冷知識】10 項最常被遺留在共乘行程的物件</h3>
           <PrimaryImage src={require('./images/10-most-forgotten-items.png')} />
-          <ul>
-            <li>電話</li>
-            <li>戒指</li>
-            <li>鎖匙</li>
-            <li>銀包</li>
-            <li>眼鏡</li>
-            <li>手袋</li>
-            <li>證件及護照</li>
-            <li>手套</li>
-            <li>充電器</li>
-            <li>太陽鏡 </li>
-          </ul>
         </Paragraph>
       </Container>
       <Container padding="3rem">

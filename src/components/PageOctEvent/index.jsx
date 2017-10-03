@@ -35,6 +35,15 @@ const Col4 = styled.div`
   }
 `;
 
+const A = styled.a`
+  display: inline-block;
+  background-color: #e7421f;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+`;
+
 const gallerySources = [
   { src: require('./images/dinner_1.jpg'), caption: '' },
   { src: require('./images/dinner_2.jpg'), caption: '' },
@@ -81,8 +90,17 @@ class PageOctEvent extends React.Component {
                 <b>地點</b>：天水圍（詳細地址將在電郵內發放）<br />
                 <b>活動內容</b>：燒烤及釣海鮮大比拼（勝出的司機夥伴可獲豐富禮品！）
               </p>
-              <p>* 2017年加入的優秀司機夥伴優先</p>
+              <p style={{ fontSize: '1rem' }}>
+                * 歡迎所有司機夥伴報名，從未參加 Uber 活動的優秀司機夥伴優先。
+              </p>
               <p>活動費用全免！歡迎司機夥伴攜同家人出席！</p>
+              <A
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://t.uber.com/ubercarnival"
+              >
+                立即報名
+              </A>
             </Paragraph>
             <Paragraph>
               <h3>活動回顧 - Uber 司機夥伴慶祝晚宴暨「123日改變」啟動儀式</h3>
