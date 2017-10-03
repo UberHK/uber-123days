@@ -39,7 +39,7 @@ const EventsStage2 = () => (
       <h2>更多精彩活動</h2>
       <RegularPost
         id="airport"
-        imgUrl={require('./images/multi-destinations.jpg')}
+        imgUrl={require('./images/airport.png')}
         title="機場前往市區補貼"
         desc1="完成往機場範圍之行程後，即時前往市區接單，將獲 HK$50 補貼。"
         desc2=""
@@ -47,7 +47,7 @@ const EventsStage2 = () => (
       />
       <RegularPost
         id="lost-and-found"
-        imgUrl={require('./images/monthly-star.jpg')}
+        imgUrl={require('./images/lost_and_found.png')}
         title="路不拾遺獎勵計劃"
         desc1="即日起至12月31日，只要將失物送到 Uber 服務中心，在乘客取回物品後你將獲 HK$100 獎勵。"
         desc2=""
@@ -55,7 +55,7 @@ const EventsStage2 = () => (
       />
       <RegularPost
         id="oct-event"
-        imgUrl={require('./images/sept-event.jpg')}
+        imgUrl={require('./images/oct-event.png')}
         title="特別活動"
         desc1="Uber 將於十月中為司機夥伴舉行同樂嘉年華，誠邀司機夥伴攜同家人及朋友出席。"
         desc2=""

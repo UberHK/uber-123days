@@ -17,7 +17,7 @@ const PageMomentum = () => (
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/cheer.jpg')} />
+        <PrimaryImage src={require('./images/momentum.png')} />
         <Paragraph>
           立即前往最新優御會網站：
           <a

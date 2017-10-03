@@ -16,7 +16,7 @@ const PageAirport = () => (
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/cheer.jpg')}>
+        <PrimaryImage src={require('./images/airport.png')}>
           <p>
             我們深知你希望把握每一分、每一秒在行程途中，增加行程收入。有時候在機場範圍等候時間較長，我們建議司機夥伴前往市區接單。若你在指定日期及時間*內，完成往機場範圍之行程後，即時前往市區接單，將額外獲得
             HK$50 作為補貼。

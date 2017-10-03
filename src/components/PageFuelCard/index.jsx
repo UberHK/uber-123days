@@ -17,7 +17,7 @@ const PageOilCard = () => (
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/cheer.jpg')} />
+        <PrimaryImage src={require('./images/fuel-card.png')} />
         <Paragraph>
           <h3>優惠詳情</h3>
           <p>此優惠只限已於 Uber 登記的車輛及司機夥伴尊享。</p>

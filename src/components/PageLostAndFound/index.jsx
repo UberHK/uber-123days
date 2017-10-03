@@ -13,17 +13,14 @@ const PageLostAndFound = () => (
   <PagePost
     back="#lost-and-found"
     title="乘客失物處理「路不拾遺獎勵計劃」"
-    introduction="九月初，我們會邀請一班優秀司機夥伴及家人參加晚宴及抽獎活動。之後我們會繼續舉辦不同活動，敬請期待！"
+    introduction="由即日起至12月31日，只要乘客親身到 Uber
+    服務中心取回你所交還的物品，我們將會給你 HK$100 獎勵，作為答謝。"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
-        <PrimaryImage src={require('./images/cheer.jpg')}>
+        <PrimaryImage src={require('./images/lost_and_found.png')}>
           <p>假如乘客在車上遺留私人物品，你可以直接聯絡乘客安排交還物品。</p>
-          <p>
-            除此之外，你亦可以將物品送到 Uber
-            服務中心，我們會代你聯絡乘客取回物品，節省你和乘客相約的時間。由即日起至12月31日，只要乘客親身到 Uber
-            服務中心取回你所交還的物品，我們將會給你 HK$100 獎勵，作為答謝。
-          </p>
+          <p>除此之外，你亦可以將物品送到 Uber 服務中心，我們會代你聯絡乘客取回物品，節省你和乘客相約的時間。</p>
         </PrimaryImage>
         <Paragraph>
           <p>當然，你亦可在乘客下車前，提醒他們檢查有否帶齊所有隨身物品！感謝你一直以來為乘客提供五星的行程體驗。</p>
@@ -36,6 +33,7 @@ const PageLostAndFound = () => (
         </Paragraph>
         <Paragraph>
           <h3>【冷知識】10 項最常被遺留在共乘行程的物件</h3>
+          <PrimaryImage src={require('./images/10-most-forgotten-items.png')} />
         </Paragraph>
       </Container>
       <Container padding="3rem">
