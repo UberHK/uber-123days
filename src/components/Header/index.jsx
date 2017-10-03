@@ -29,13 +29,14 @@ const LogoContainer = styled(Link)`
   `};
 `;
 
-const Header = () =>
+const Header = () => (
   <Wrapper>
     <Container>
       <LogoContainer to="/">
         <SVGLogo />
       </LogoContainer>
     </Container>
-  </Wrapper>;
+  </Wrapper>
+);
 
 export default Header;

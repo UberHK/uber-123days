@@ -34,6 +34,18 @@ const PageLostAndFound = () => (
         <Paragraph>
           <h3>【冷知識】10 項最常被遺留在共乘行程的物件</h3>
           <PrimaryImage src={require('./images/10-most-forgotten-items.png')} />
+          <ul>
+            <li>電話</li>
+            <li>戒指</li>
+            <li>鎖匙</li>
+            <li>銀包</li>
+            <li>眼鏡</li>
+            <li>手袋</li>
+            <li>證件及護照</li>
+            <li>手套</li>
+            <li>充電器</li>
+            <li>太陽鏡 </li>
+          </ul>
         </Paragraph>
       </Container>
       <Container padding="3rem">
