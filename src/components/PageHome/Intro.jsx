@@ -29,7 +29,7 @@ const FullWidth = OffsetFullWidth.extend`
 const Intro = () => (
   <FullWidth>
     <IntroContainer bgColor="#fff">
-      <H2>一個全新的開始</H2>
+      <H2>Uber 為你帶來更貼心改變</H2>
       <P2>
         上月開始，Uber 為司機夥伴作出「123日改變」，感謝大家對第一期的支持和鼓勵，並親臨全新 Uber
         服務中心分享駕駛體驗，讓我們為你做得更好。

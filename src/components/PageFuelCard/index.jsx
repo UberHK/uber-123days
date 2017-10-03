@@ -33,9 +33,9 @@ const PageOilCard = () => (
             了解詳情：<a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://t.uber.com/oilcardhk"
+              href="https://www.uber.com/zh-HK/drive/hong-kong/resources/oilcard/"
             >
-              t.uber.com/oilcardhk
+              https://www.uber.com/zh-HK/drive/hong-kong/resources/oilcard/
             </a>
           </p>
         </Paragraph>
