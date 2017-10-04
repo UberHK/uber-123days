@@ -37,8 +37,8 @@ const Col4 = styled.div`
 
 const A = styled.a`
   display: inline-block;
-  background-color: #e7421f;
-  padding: 1rem;
+  background-color: #d21618;
+  padding: 0.75rem 1.5rem;
   color: #fff;
   text-decoration: none;
   margin-top: 1rem;

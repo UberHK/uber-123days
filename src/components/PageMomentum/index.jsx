@@ -1,6 +1,8 @@
 // @flow
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import styled from 'styled-components';
 
 import PagePost from '../PagePost';
 import FullWidth from '../FullWidth';
@@ -8,6 +10,15 @@ import Container from '../Container';
 import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
+
+const A = styled.a`
+  display: inline-block;
+  background-color: #d21618;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+`;
 
 const PageMomentum = () => (
   <PagePost
@@ -20,27 +31,28 @@ const PageMomentum = () => (
         <PrimaryImage src={require('./images/momentum.png')}>
           <p>
             優御會會員分別為基本級，精英級及大師級。只要達到一定評分及行程數量就可晉升更高會員級別，可享其他升級折扣優惠。
-          </p>立即前往最新優御會網站：
-          <a
+          </p>立即前往最新優御會網站：<br />
+          <A
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.driveuber.hk"
           >
-            https://www.driveuber.hk
-          </a>
+            瀏覽 driveuber.hk
+          </A>
         </PrimaryImage>
         <Paragraph />
         <Paragraph>
           <h3>全新禮品</h3>
           <PrimaryImage src={require('./images/gifts.png')} />
           <p>
-            立即前往優御會禮品換領區：<a
+            立即前往優御會禮品換領區：<br />
+            <A
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.driveuber.hk/shop"
             >
-              https://www.driveuber.hk/shop
-            </a>
+              瀏覽 driveuber.hk
+            </A>
           </p>
         </Paragraph>
       </Container>

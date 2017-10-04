@@ -1,6 +1,8 @@
 // @flow
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import styled from 'styled-components';
 
 import PagePost from '../PagePost';
 import FullWidth from '../FullWidth';
@@ -8,6 +10,15 @@ import Container from '../Container';
 import Paragraph from '../PagePost/Paragraph';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
+
+const A = styled.a`
+  display: inline-block;
+  background-color: #d21618;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+`;
 
 const PageOilCard = () => (
   <PagePost
@@ -30,13 +41,13 @@ const PageOilCard = () => (
             的優惠，實行「揸多啲、慳多啲、賺多啲」！
           </p>
           <p>
-            了解詳情：<a
+            <A
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.uber.com/zh-HK/drive/hong-kong/resources/oilcard/"
+              href="https://www.uber.com/zh-HK/drive/hong-kong/resources/oilcard"
             >
-              https://www.uber.com/zh-HK/drive/hong-kong/resources/oilcard/
-            </a>
+              了解詳情
+            </A>
           </p>
         </Paragraph>
         <p>*每公升 HK$2.7 折扣包括 Shell 咭基本每公升 HK$2.6 折扣及 Uber 之額外折扣</p>
