@@ -32,6 +32,7 @@ const PageMomentum = () => (
         <Paragraph />
         <Paragraph>
           <h3>全新禮品</h3>
+          <PrimaryImage src={require('./images/gifts.png')} />
           <p>
             立即前往優御會禮品換領區：<a
               target="_blank"
