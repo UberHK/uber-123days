@@ -3,6 +3,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import styled from 'styled-components';
+import Link from 'gatsby-link';
 
 import PagePost from '../PagePost';
 import FullWidth from '../FullWidth';
@@ -13,16 +14,13 @@ import NormalImage from '../PagePost/NormalImage';
 import NormalImageRight from '../PagePost/NormalImageRight';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
-const Table = styled.table`
-  border: 2px solid #dfdfdf;
-  border-collapse: collapse;
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
-  > th,
-  td {
-    padding: 0.5rem;
-    border: 2px solid #dfdfdf;
-  }
+const A = styled(Link)`
+  display: inline-block;
+  background-color: #d21618;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
 `;
 
 const PageMonthlyStar = () => (
@@ -35,8 +33,9 @@ const PageMonthlyStar = () => (
       <Container padding="3rem 3rem 1rem">
         <PrimaryImage src={require('./images/monthly-star-2.png')}>
           <p>
-            Uber 能廣受香港人歡迎，全因有你和各位司機夥伴一直提供優質可靠的共乘服務。為表揚平台上優秀的司機夥伴， 並鼓勵各位師兄師姐與
-            Uber 一起進步，由九月到十一月，將會有共15位司機夥伴成為 Uber「每月之星」及特別獎賞！
+            Uber 能廣受香港人歡迎，全因有你和各位司機夥伴一直提供優質可靠的共乘服務。過去兩個月已有10位司機夥伴成為
+            Uber「每月之星」，每位得獎司機夥伴均獲贈價值 HK$3,000 的 Shell 油劵及精美獎座，以答謝他們的超卓表現。你會是下一位
+            Uber「每月之星」嗎？
           </p>
         </PrimaryImage>
       </Container>
@@ -52,49 +51,36 @@ const PageMonthlyStar = () => (
           </ol>
         </Paragraph>
         <p>
-          *條款及細則：
-          九月「每月之星」將於十月頒發。司機夥伴需成功登記及出席頒獎聚餐方可獲獎。十月的「每月之星」獎項（即過去一個月達到指定條件者）將另作安排。活動最終解釋和決定權歸
-          Uber 所有。
+          *條款及細則：十月「每月之星」將於十一月的電影會中頒發。司機夥伴需成功登記及出席電影會活動方可獲獎。活動最終解釋和決定權歸 Uber 所有。
         </p>
+        <Paragraph>
+          <A to="/monthly-star-awardee">得獎名單</A>
+        </Paragraph>
       </Container>
       <Container padding="1rem 3rem" bgColor="#fdfdfd">
-        <h2>八月「每月之星」</h2>
-        <Paragraph>
-          我們早前在 Uber 司機夥伴慶祝晚宴暨「123日改變」啟動儀式上頒發了八月「每月之星」，每位得獎司機夥伴均獲贈精美獎座及價值
-          HK$3,000 的 Shell 油咭，以答謝他們的超卓表現。我們再次感謝各位司機夥伴為共乘交通出一分力。
-        </Paragraph>
-        <h3>得獎名單</h3>
-        <Table>
-          <tr>
-            <td>五星大賞</td>
-            <td>Nick N.</td>
-            <td>300程5星行程</td>
-          </tr>
-          <tr>
-            <td>乘客之選</td>
-            <td>Jerry C.</td>
-            <td>152程 平均4.93星</td>
-          </tr>
-          <tr>
-            <td>榮譽勳章</td>
-            <td>Po L.</td>
-            <td>73個勳章</td>
-          </tr>
-          <tr>
-            <td>熱心之最</td>
-            <td>Rachel L.</td>
-            <td>167程 95.7%接單率</td>
-          </tr>
-          <tr>
-            <td>關懷備至</td>
-            <td>Wai W.</td>
-            <td>26程關懷優步行程</td>
-          </tr>
-        </Table>
         <h3>得獎司機夥伴分享</h3>
         <Paragraph>想成為下月的「每月之星」？立即觀看其中兩位八月得獎司機夥伴的訪問，了解他們的獲獎心得和駕駛小故事。</Paragraph>
         <NormalImage src={require('./images/aug-star-man.png')}>
-          <h4>「榮譽勳章」得主 － 阿文</h4>
+          <h4>九月「榮譽勳章」得主 － 阿文</h4>
+          <p>九月份，林先生完成了29個關懷優步行程。他本著「做得就盡量做」的精神，平均每日協助1個有需要人士出門。</p>
+          <p>
+            林先生表示，關懷優步的乘客通常乘搭短程，來往住所及醫院。他遇過患上小兒麻痹症的乘客，由媽媽陪同選搭 Uber。兩母子非常感激他，因為
+            Uber
+            較其他交通工具更方便，而且司機夥伴亦較細心，協助他們上落車。林先生笑言，平時沒有機會貢獻社會，能夠照顧行動不便人士或長者令他倍感窩心。
+          </p>
+        </NormalImage>
+        <NormalImageRight src={require('./images/aug-star-ken.png')}>
+          <h4>九月「熱心之最」得主 － 梁先生</h4>
+          <p>
+            退休人士梁先生在九月份完成了262個行程，接單率高達99.7%，全因「遇上客人是緣分」的信念！敬業樂業的梁先生不論路程長短、天氣惡劣都會盡力接載客人，確保他們安然抵達目的地。
+          </p>
+          <p>
+            年多前，任職的士司機的梁先生已經被乘客稱讚服務優質，更提議他轉到 Uber 平台做司機夥伴。加入 Uber
+            後，他的工作時間較彈性，更不時遇上態度好的乘客，例如喝過酒的乘客會自備膠袋，令他的平台體驗更愉快。
+          </p>
+        </NormalImageRight>
+        <NormalImage src={require('./images/aug-star-man.png')}>
+          <h4>八月「榮譽勳章」得主 － 阿文</h4>
           <p>
             阿文成為 Uber 司機夥伴已有一年半時間，他十分喜歡 Uber 的概念，更表示駕駛 Uber
             是他的夢想，能滿足自己的興趣和賺取收入之餘，彈性上線時間亦方便他安排時間照顧家人。他指自己從未試過獲獎，所以很高興獲得乘客的認同。
@@ -105,7 +91,7 @@ const PageMonthlyStar = () => (
           </p>
         </NormalImage>
         <NormalImageRight src={require('./images/aug-star-ken.png')}>
-          <h4>「關懷備至」得主 － Ken</h4>
+          <h4>八月「關懷備至」得主 － Ken</h4>
           <p>
             Ken 當初經朋友介紹加入 Uber，雖然只是短短半年，但已完成超過三千次行程。被問及參與「關懷優步」培訓的原因，他表示希望藉此更投入
             Uber 的工作，同時增加收入。
@@ -118,16 +104,16 @@ const PageMonthlyStar = () => (
       <Container padding="3rem">
         <h3>其他相關活動</h3>
         <SuggestedPage
-          to="/airport"
-          bg={require('../PageHome/images/airport.png')}
+          to="/inapp-chat"
+          bg={require('../PageHome/images/inapp-chat.png')}
         >
-          機場前往市區補貼
+          App 內訊息功能
         </SuggestedPage>
         <SuggestedPage
-          to="/lost-and-found"
-          bg={require('../PageHome/images/lost_and_found.png')}
+          to="/share-trip"
+          bg={require('../PageHome/images/trip-sharing.png')}
         >
-          路不拾遺獎勵計劃
+          行程分享功能
         </SuggestedPage>
       </Container>
     </FullWidth>

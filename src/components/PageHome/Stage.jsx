@@ -6,13 +6,18 @@ import styled from 'styled-components';
 
 import EventsStage1 from './EventsStage1';
 import EventsStage2 from './EventsStage2';
+import EventsStage3 from './EventsStage3';
 import Media from '../../util/MediaUtil';
 import FullWidth from '../../components/FullWidth';
 
 const SVG = styled.svg`
   display: inline-block;
-  width: 8rem;
-  height: 6rem;
+  width: 8.75rem;
+  height: 6.5rem;
+  ${Media.fromWidth('XS').css`
+    width: 8.75rem;
+    height: 6.5rem;
+  `};
   ${Media.fromWidth('SM').css`
     width: 10rem;
     height: 7.5rem;
@@ -27,7 +32,25 @@ type Props = {
   onClick: () => void
 };
 
-const Span = styled.span`cursor: ${props => props.cursor};`;
+const Span = styled.span`
+  margin-left: -2rem;
+  margin-right: -2rem;
+  ${Media.fromWidth('XS').css`
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  `};
+  ${Media.fromWidth('SM').css`
+    margin-left: -1rem;
+    margin-right: -1rem;
+  `};
+  ${Media.fromWidth('MD').css`
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: 10rem;
+    height: 7.5rem;
+  `};
+  cursor: ${props => props.cursor};
+`;
 
 const Icon = (props: Props) => (
   <Span
@@ -83,7 +106,7 @@ const Connector = styled.div`
   line-height: 0;
   font-size: 0;
   overflow: hidden;
-  height: 6rem;
+  height: 6.5rem;
   ${Media.fromWidth('SM').css`
     height: 7.5rem;
   `};
@@ -93,32 +116,31 @@ const Spacer = styled.div`
   display: inline-block;
   height: 0;
   width: 0;
-  ${Media.fromWidth('SM').css`
-    width: 1rem;
-  `};
   ${Media.fromWidth('MD').css`
-    width: 4rem;
+    width: 2rem;
   `};
   ${Media.fromWidth('LG').css`
-    width: 10rem;
+    width: 5rem;
   `};
   ${Media.fromWidth('XL').css`
-    width: 16rem;
+    width: 8rem;
   `};
 `;
 
-const Events = ({ activeStage }: { activeStage: 1 | 2 | 3 }) => {
+const Events = ({ activeStage }: { activeStage: 1 | 2 | 3 | 4 }) => {
   if (activeStage === 1) {
     return <EventsStage1 />;
   } else if (activeStage === 2) {
     return <EventsStage2 />;
+  } else if (activeStage === 3) {
+    return <EventsStage3 />;
   }
-  return <EventsStage2 />;
+  return <EventsStage3 />;
 };
 
 class Stage extends React.Component {
   state = {
-    activeStage: 2
+    activeStage: 3
   };
 
   selectStage = index => {
@@ -128,34 +150,40 @@ class Stage extends React.Component {
   render() {
     return (
       <FullWidth bgColor="#f7f7f8">
-        <div>
-          <Connector>
-            <Icon
-              id={1}
-              active={this.state.activeStage === 1}
-              onClick={() => this.selectStage(1)}
-            >
-              第一階段
-            </Icon>
-            <Spacer />
-            <Icon
-              id={2}
-              active={this.state.activeStage === 2}
-              onClick={() => this.selectStage(2)}
-            >
-              第二階段
-            </Icon>
-            <Spacer />
-            <Icon
-              id={3}
-              active={false}
-              onClick={() => this.selectStage(3)}
-              disabled
-            >
-              第三階段
-            </Icon>
-          </Connector>
-        </div>
+        <Connector>
+          <Icon
+            id={1}
+            active={this.state.activeStage === 1}
+            onClick={() => this.selectStage(1)}
+          >
+            第一階段
+          </Icon>
+          <Spacer />
+          <Icon
+            id={2}
+            active={this.state.activeStage === 2}
+            onClick={() => this.selectStage(2)}
+          >
+            第二階段
+          </Icon>
+          <Spacer />
+          <Icon
+            id={3}
+            active={this.state.activeStage === 3}
+            onClick={() => this.selectStage(3)}
+          >
+            第三階段
+          </Icon>
+          <Spacer />
+          <Icon
+            id={4}
+            active={false}
+            onClick={() => this.selectStage(4)}
+            disabled
+          >
+            第四階段
+          </Icon>
+        </Connector>
         <Events activeStage={this.state.activeStage} />
       </FullWidth>
     );

@@ -25,7 +25,7 @@ const PostContainer = styled(Link)`
     }
   }
   ${Media.fromWidth('XS').css`
-    height: 19rem;
+    height: 20rem;
   `};
   ${Media.fromWidth('SM').css`
     height: 24rem;

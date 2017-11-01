@@ -17,14 +17,15 @@ const Container = PostContainer.extend`
     }
     margin-right: 0.75rem;
     width: 18.375rem;
-    height: 21.5rem;
+    height: 22.5rem;
   `};
   ${Media.fromWidth('LG').css`
     width: 24.375rem;
-    height: 24rem;
+    height: 25rem;
   `};
   ${Media.fromWidth('XL').css`
     width: 33.375rem;
+    height: 24rem;
   `};
 `;
 
