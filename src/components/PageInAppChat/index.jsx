@@ -34,6 +34,11 @@ const PageInAppChat = () => (
           <Li>填寫訊息然後按「發送」，乘客就會立即收到有關訊息。</Li>
           <Li>如果乘客回覆訊息，你亦同樣可隨時在App內查看訊息。</Li>
         </ul>
+        <img style={{ width: 320 }} src={require('./images/screenshot.gif')} />
+        <br />
+        <br />
+        <br />
+        <br />
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

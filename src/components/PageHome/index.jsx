@@ -4,7 +4,7 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import styled from 'styled-components';
 
-import Cover from './Cover2';
+import Cover from './Cover3';
 import Intro from './Intro';
 import Stage from './Stage';
 
