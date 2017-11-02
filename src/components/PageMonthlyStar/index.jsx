@@ -60,8 +60,8 @@ const PageMonthlyStar = () => (
       <Container padding="1rem 3rem" bgColor="#fdfdfd">
         <h3>得獎司機夥伴分享</h3>
         <Paragraph>想成為下月的「每月之星」？立即觀看其中兩位八月得獎司機夥伴的訪問，了解他們的獲獎心得和駕駛小故事。</Paragraph>
-        <NormalImage src={require('./images/aug-star-man.png')}>
-          <h4>九月「榮譽勳章」得主 － 阿文</h4>
+        <NormalImage src={require('./images/sep_2.png')} isVideo={false}>
+          <h4>九月「榮譽勳章」得主 － 林先生</h4>
           <p>九月份，林先生完成了29個關懷優步行程。他本著「做得就盡量做」的精神，平均每日協助1個有需要人士出門。</p>
           <p>
             林先生表示，關懷優步的乘客通常乘搭短程，來往住所及醫院。他遇過患上小兒麻痹症的乘客，由媽媽陪同選搭 Uber。兩母子非常感激他，因為
@@ -69,7 +69,7 @@ const PageMonthlyStar = () => (
             較其他交通工具更方便，而且司機夥伴亦較細心，協助他們上落車。林先生笑言，平時沒有機會貢獻社會，能夠照顧行動不便人士或長者令他倍感窩心。
           </p>
         </NormalImage>
-        <NormalImageRight src={require('./images/aug-star-ken.png')}>
+        <NormalImageRight src={require('./images/sep_1.png')} isVideo={false}>
           <h4>九月「熱心之最」得主 － 梁先生</h4>
           <p>
             退休人士梁先生在九月份完成了262個行程，接單率高達99.7%，全因「遇上客人是緣分」的信念！敬業樂業的梁先生不論路程長短、天氣惡劣都會盡力接載客人，確保他們安然抵達目的地。

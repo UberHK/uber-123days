@@ -8,7 +8,9 @@ import styled from 'styled-components';
 
 import Media from '../../util/MediaUtil';
 
-const Container = styled.div`margin-bottom: 3rem;`;
+const Container = styled.div`
+  margin-bottom: 3rem;
+`;
 
 const PlayerContainer = styled.div`
   display: inline-block;
@@ -69,14 +71,25 @@ const Description = styled.div`
   `};
 `;
 
-const NormalImage = ({ src, children }: { src: string, children: string }) => (
+const NormalImage = ({
+  src,
+  children,
+  isVideo = true
+}: {
+  src: string,
+  children: string
+}) => (
   <Container>
     <PlayerContainer>
-      <ReactPlayer
-        width="100%"
-        height="100%"
-        url="https://www.youtube.com/watch?v=1JUYgd3Vxzc"
-      />
+      {isVideo ? (
+        <ReactPlayer
+          width="100%"
+          height="100%"
+          url="https://www.youtube.com/watch?v=1JUYgd3Vxzc"
+        />
+      ) : (
+        <img width="100%" height="100%" src={src} />
+      )}
     </PlayerContainer>
     <Description>{children}</Description>
   </Container>
