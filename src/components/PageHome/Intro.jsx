@@ -29,7 +29,7 @@ const FullWidth = OffsetFullWidth.extend`
 const Intro = () => (
   <FullWidth>
     <IntroContainer bgColor="#fff">
-      <H2>Uber 為你帶來更貼心改變</H2>
+      <H2>更好用的 App，更暢快的駕駛時刻</H2>
       <P2>
         隨著「123日改變」踏入第三期，我們在司機夥伴 App
         作出了一系列更新，包括讓你可以自由選擇接單種類、系統自動建議乘客到更方便你接載的地點上車、App

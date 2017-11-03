@@ -33,7 +33,7 @@ const PageVenue = () => (
             href="http://t.uber.com/hkpickupform"
           >
             此表格
-          </a>提供你寶貴的建議，助我們一臂之力，改善乘客及司機的體驗。
+          </a>提供你寶貴的建議，助我們一臂之力，改善乘客及司機夥伴的體驗。
         </Paragraph>
         <Paragraph>
           <img

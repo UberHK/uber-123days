@@ -29,12 +29,7 @@ const PageMonthlyStarAwardee = () => (
   >
     <FullWidth>
       <Container padding="1rem 3rem" bgColor="#fdfdfd">
-        <h2>九月「每月之星」</h2>
-        <Paragraph>
-          上月我們在 Uber 服務中心舉行的優秀司機夥伴聚會中頒發了九月「每月之星」。每位得獎司機夥伴均獲得精美獎座及價值 HK$3,000 的
-          Shell 油劵。他們亦跟我們分享了過去在 Uber 平台上的點滴。我們再一次多謝司機夥伴一直以來的支持。
-        </Paragraph>
-        <h3>得獎名單</h3>
+        <h2>九月「每月之星」得獎名單</h2>
         <Table>
           <tr>
             <td>五星大賞</td>
@@ -63,12 +58,7 @@ const PageMonthlyStarAwardee = () => (
           </tr>
         </Table>
         <br />
-        <h2>八月「每月之星」</h2>
-        <Paragraph>
-          我們早前在 Uber 司機夥伴慶祝晚宴暨「123日改變」啟動儀式上頒發了八月「每月之星」，每位得獎司機夥伴均獲贈精美獎座及價值
-          HK$3,000 的 Shell 油咭，以答謝他們的超卓表現。我們再次感謝各位司機夥伴為共乘交通出一分力。
-        </Paragraph>
-        <h3>得獎名單</h3>
+        <h2>八月「每月之星」得獎名單</h2>
         <Table>
           <tr>
             <td>五星大賞</td>

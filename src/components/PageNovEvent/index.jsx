@@ -94,21 +94,20 @@ class PageNovEvent extends React.Component {
           <Container padding="3rem 3rem 1rem">
             <PrimaryImage src={require('./images/nov-event.png')} />
             <Paragraph style={{ marginBottom: 0 }}>
-              日期及時間：11月19日（星期日）下午三時至六時
+              日期及時間：11月19日（星期日）2:45 - 5:30 pm
             </Paragraph>
             <Paragraph style={{ marginBottom: 0 }}>
-              地點： 九龍灣 （詳細地址將通過確認電郵通知）
+              地點：尖沙咀（詳細地址將通過確認電郵通知）
             </Paragraph>
             <Paragraph style={{ marginBottom: 0 }}>活動內容：</Paragraph>
             <ul>
               <Li>十月「每月之星」頒獎禮</Li>
               <Li>免費電影戲票</Li>
               <Li>免費爆谷及飲品</Li>
-              <Li>免費泊車（多達4小時）</Li>
+              <Li>3小時免費泊車</Li>
             </ul>
             <br />
             <p>*歡迎所有司機夥伴報名，十月「每月之星」及從未參加 Uber 活動的優秀司機夥伴優先。</p>
-            <p>**每張戲票持有人可獲贈2小時免費泊車，每架車輛則可享最多4小時免費泊車。</p>
             <br />
             <Paragraph>
               <A
@@ -139,7 +138,7 @@ class PageNovEvent extends React.Component {
                 {image.caption}
               </Col4>
             ))}
-            <h3>活動回顧 - Mooncake Event</h3>
+            <h3>活動回顧 - 中秋賀團圓猜燈謎活動</h3>
             <Paragraph>
               中秋前夕及當日，我們邀請了近100位司機夥伴親臨 Uber
               服務中心，與我們一齊共度中秋佳節。當日出席的參加者除了獲得精美月餅外，更參加了中秋猜燈謎遊戲贏取豐富獎品。司機夥伴都十分投入，場面洋溢著濃厚的節日氣氛。
