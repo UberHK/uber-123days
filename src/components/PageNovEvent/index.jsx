@@ -88,7 +88,7 @@ class PageNovEvent extends React.Component {
         back="#nov-event"
         title="特別活動"
         introduction="Uber 包場請你免費睇《正義聯盟》！成功報名的司機夥伴*
-    可於11月19日（星期日）帶同最多2位親友觀賞這部萬眾期待的DC鉅作。我們亦準備了爆谷、飲品及免費泊車**，讓你盡興。"
+    可於11月19日（星期日）帶同最多2位親友觀賞這部萬眾期待的DC鉅作。我們亦準備了爆谷、飲品及免費泊車，讓你盡興。"
       >
         <FullWidth>
           <Container padding="3rem 3rem 1rem">

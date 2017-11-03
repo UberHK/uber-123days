@@ -59,7 +59,7 @@ const PageMonthlyStar = () => (
       </Container>
       <Container padding="1rem 3rem" bgColor="#fdfdfd">
         <h3>得獎司機夥伴分享</h3>
-        <Paragraph>想成為下月的「每月之星」？立即觀看其中兩位八月得獎司機夥伴的訪問，了解他們的獲獎心得和駕駛小故事。</Paragraph>
+        <Paragraph>想成為下月的「每月之星」？立即觀看以下幾位得獎司機夥伴的訪問，了解他們的獲獎心得和駕駛小故事。</Paragraph>
         <NormalImage src={require('./images/sep_2.png')} isVideo={false}>
           <h4>九月「榮譽勳章」得主 － 林先生</h4>
           <p>九月份，林先生完成了29個關懷優步行程。他本著「做得就盡量做」的精神，平均每日協助1個有需要人士出門。</p>
