@@ -29,6 +29,35 @@ const PageMonthlyStarAwardee = () => (
   >
     <FullWidth>
       <Container padding="1rem 3rem" bgColor="#fdfdfd">
+        <h2>十月「每月之星」得獎名單</h2>
+        <Table>
+          <tr>
+            <td>五星大賞</td>
+            <td>Po. L</td>
+            <td>279程5星行程</td>
+          </tr>
+          <tr>
+            <td>乘客之選</td>
+            <td>Wing C.</td>
+            <td>113程 平均4.97星</td>
+          </tr>
+          <tr>
+            <td>榮譽勳章</td>
+            <td>Stephen K.</td>
+            <td>294個勳章</td>
+          </tr>
+          <tr>
+            <td>熱心之最</td>
+            <td>Ken L.</td>
+            <td>89程 98.3%接單率</td>
+          </tr>
+          <tr>
+            <td>關懷備至</td>
+            <td>Chi L.</td>
+            <td>18程關懷優步行程</td>
+          </tr>
+        </Table>
+        <br />
         <h2>九月「每月之星」得獎名單</h2>
         <Table>
           <tr>

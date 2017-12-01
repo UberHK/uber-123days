@@ -36,7 +36,9 @@ const PageTripPreference = () => (
         <PrimaryImage src={require('./images/trip-preference.png')} />
         <h3>如何操作</h3>
         <ul>
-          <Li>在 App 中上方前往 [選項] &gt; 輕按右方齒輪，即可進入 [行程偏好設定]</Li>
+          <Li>
+            在 App 中上方前往 [選項] &gt; 輕按右方齒輪，即可進入 [行程偏好設定]
+          </Li>
           <Li>勾選 UberBLACK* 即可接到 UberBLACK 及七人車的行程預約</Li>
           <Li>勾選 uberX 即可以接到 uberX 的行程預約</Li>
         </ul>
@@ -55,7 +57,10 @@ const PageTripPreference = () => (
             src={require('./images/screenshot.png')}
           />
         </Paragraph>
-        <p>*請注意，如果你上線的車輛不符合 UberBLACK 或七人車的行程要求，UberBLACK 的選項將不被顯示。</p>
+        <p>
+          *請注意，如果你上線的車輛不符合 UberBLACK
+          或七人車的行程要求，UberBLACK 的選項將不被顯示。
+        </p>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

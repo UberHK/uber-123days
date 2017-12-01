@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import EventsStage1 from './EventsStage1';
 import EventsStage2 from './EventsStage2';
 import EventsStage3 from './EventsStage3';
+import EventsStage4 from './EventsStage4';
 import Media from '../../util/MediaUtil';
 import FullWidth from '../../components/FullWidth';
 
@@ -135,12 +136,12 @@ const Events = ({ activeStage }: { activeStage: 1 | 2 | 3 | 4 }) => {
   } else if (activeStage === 3) {
     return <EventsStage3 />;
   }
-  return <EventsStage3 />;
+  return <EventsStage4 />;
 };
 
 class Stage extends React.Component {
   state = {
-    activeStage: 3
+    activeStage: 4
   };
 
   selectStage = index => {
@@ -177,9 +178,8 @@ class Stage extends React.Component {
           <Spacer />
           <Icon
             id={4}
-            active={false}
+            active={this.state.activeStage === 4}
             onClick={() => this.selectStage(4)}
-            disabled
           >
             第四階段
           </Icon>
