@@ -460,7 +460,7 @@ template {
 }
 
 .toast {
-  background-color: #d21618;
+  background-color: #d21618 !important;
   color: white;
   text-decoration: none;
   text-align: left;
