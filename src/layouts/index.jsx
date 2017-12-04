@@ -28,9 +28,19 @@ const PageContainer = styled.div`
 `;
 
 setTimeout(() => {
-  toast('想知道更多？請即瀏覽我們的 Facebook 司機顆伴專頁。', {
-    position: toast.POSITION.TOP_RIGHT
-  });
+  toast(
+    <a
+      style={{ textDecoration: 'none', color: '#fff' }}
+      target="_blank"
+      href="http://t.uber.com/hkfb"
+      rel="noopener noreferrer"
+    >
+      想知道更多？請即瀏覽我們的 Facebook 司機夥伴專頁。
+    </a>,
+    {
+      position: toast.POSITION.TOP_RIGHT
+    }
+  );
 }, 3000);
 
 const TemplateWrapper = ({ children }: { children: React.Element }) => (

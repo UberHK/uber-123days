@@ -56,7 +56,7 @@ const PageYearEndParty = () => (
           <A
             target="_blank"
             rel="noopener noreferrer"
-            href="http://t.uber.com/hktp"
+            href="http://t.uber.com/123buffet"
           >
             了解更多
           </A>
