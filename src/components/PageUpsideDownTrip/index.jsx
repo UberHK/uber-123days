@@ -20,7 +20,7 @@ const PageUpsideDownTrip = () => (
   <PagePost
     back="#longtrip-bonus"
     title="遠程接單車資保證"
-    introduction="直至2018年1月1日凌晨，當你收到行程預約時，如達預計到達上車點時間為10分鐘或以上，此程即享 HK$65 最低車資保證！"
+    introduction="直至2018年1月1日凌晨，當你收到行程預約時，如果到達上車點的時間預計為10分鐘或以上，此程即享 HK$65 最低車資保證！"
   >
     <FullWidth>
       <Container padding="3rem 3rem 1rem">
