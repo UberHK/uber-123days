@@ -3,6 +3,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import styled from 'styled-components';
+import { ToastContainer, toast } from 'react-toastify';
 
 import Helmet from '../components/Helmet';
 import Header from '../components/Header';
@@ -26,6 +27,12 @@ const PageContainer = styled.div`
   background: #f8f8f9;
 `;
 
+setTimeout(() => {
+  toast('想知道更多？請即瀏覽我們的 Facebook 司機顆伴專頁。', {
+    position: toast.POSITION.TOP_RIGHT
+  });
+}, 3000);
+
 const TemplateWrapper = ({ children }: { children: React.Element }) => (
   <Frame>
     <Helmet />
@@ -34,6 +41,11 @@ const TemplateWrapper = ({ children }: { children: React.Element }) => (
       {children()}
       <Footer />
     </PageContainer>
+    <ToastContainer
+      toastClassName="toast"
+      closeOnClick={false}
+      autoClose={false}
+    />
   </Frame>
 );
 

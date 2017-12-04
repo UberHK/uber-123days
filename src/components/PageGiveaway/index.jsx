@@ -3,6 +3,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import styled from 'styled-components';
+import Link from 'gatsby-link';
 
 import PagePost from '../PagePost';
 import Paragraph from '../PagePost/Paragraph';
@@ -35,7 +36,9 @@ const PageGiveaway = () => (
           <Li>活動當天上午四時至翌日上午四時期間開始的行程。</Li>
           <Li>本活動最終解釋和決定權歸Uber所有。</Li>
         </ul>
-        <p>* 條款及細則</p>
+        <p>
+          * <Link to="/giveaway-terms">條款及細則</Link>
+        </p>
       </Container>
       <Container padding="3rem">
         <h3>其他相關活動</h3>

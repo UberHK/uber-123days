@@ -28,6 +28,7 @@
     "react-helmet": "^5.2.0",
     "react-images": "^0.5.13",
     "react-player": "^0.25.3",
+    "react-toastify": "^3.0.0",
     "styled-components": "^2.2.4"
   },
   "devDependencies": {

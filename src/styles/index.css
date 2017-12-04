@@ -458,3 +458,10 @@ template {
 [hidden] {
   display: none;
 }
+
+.toast {
+  background-color: #d21618;
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+}
