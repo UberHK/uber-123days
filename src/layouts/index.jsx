@@ -29,19 +29,14 @@ const PageContainer = styled.div`
 
 setTimeout(() => {
   toast(
-    <a
-      style={{ textDecoration: 'none', color: '#fff' }}
-      target="_blank"
-      href="http://t.uber.com/hkfb"
-      rel="noopener noreferrer"
-    >
+    <a target="_blank" href="http://t.uber.com/hkfb" rel="noopener noreferrer">
       想知道更多？請即瀏覽我們的 Facebook 司機夥伴專頁。
     </a>,
     {
       position: toast.POSITION.TOP_RIGHT
     }
   );
-}, 3000);
+}, 300);
 
 const TemplateWrapper = ({ children }: { children: React.Element }) => (
   <Frame>

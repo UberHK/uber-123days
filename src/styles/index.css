@@ -462,6 +462,12 @@ template {
 .toast {
   background-color: #d21618;
   color: white;
+  text-decoration: none;
   text-align: left;
   padding-left: 1rem;
+}
+
+.toast a {
+  color: white;
+  text-decoration: none;
 }
