@@ -36,7 +36,7 @@ const PageYearEndParty = () => (
         <PrimaryImage src={require('./images/yearend-party-2.jpg')} />
         <Paragraph>
           為答謝司機夥伴本年度對 Uber
-          的支持與厚愛，我們將於12月10日（星期日）舉辦慶祝派對暨「123日改變」回顧。誠邀你當日下午帶同親友享用酒店自助餐及參與一系列節目包括抽獎環節。
+          的支持與厚愛，我們將於12月10日（星期日）舉辦慶祝派對暨「123日改變」回顧。誠邀你當日下午帶同親友享用酒店自助餐及參與一系列節目包括抽獎環節*。
         </Paragraph>
         <Paragraph>
           日期及時間: 12月10日 （星期日）3:30 - 5:30 pm<br />
@@ -49,7 +49,9 @@ const PageYearEndParty = () => (
           <Li>抽獎環節</Li>
           <Li>頒發十一月份「每月之星」獎項</Li>
         </ul>
-        <Paragraph>可攜同一位親友出席，活動費用全免</Paragraph>
+        <Paragraph>
+          可攜同兩位親友出席，活動費用全免（免費泊車位先到先泊）
+        </Paragraph>
         *歡迎所有司機夥伴報名，十一月「每月之星」及從未參加 Uber
         活動的優秀司機夥伴優先。
         <Paragraph style={{ marginBottom: 48 }}>

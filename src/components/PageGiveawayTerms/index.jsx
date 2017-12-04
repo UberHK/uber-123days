@@ -27,7 +27,7 @@ const Ol = styled.ol`
 
 const PageGiveawayTerms = () => (
   <PagePost
-    back="giveaway"
+    back="freetrip-giveaway"
     title="聖誕新年星級行程大賞"
     introduction="你給乘客的星級行程，換 Uber 送你的星級旅程。"
   >

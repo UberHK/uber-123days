@@ -13,20 +13,20 @@ const EventsStage4 = () => (
     <Container padding="3rem 1rem 5rem">
       <h2>第四階段重點</h2>
       <FullWidthPost
-        id="giveaway"
+        id="freetrip-giveaway"
         imgUrl={require('./images/giveaway.jpg')}
         title="聖誕新年星級行程大賞"
         desc1="活動期間每日完成最多5星行程的司機夥伴即獲價值 HK$8,000 的旅行禮券！"
         desc2="你給乘客的星級行程，換 Uber 送你的星級旅程。"
-        to="/giveaway"
+        to="/freetrip-giveaway"
       />
       <HalfWidthPost
-        id="upsidedowntrip"
+        id="longtrip-bonus"
         imgUrl={require('./images/upsidedowntrip.jpg')}
         title="遠程接單車資保證2017"
-        desc1="直至2018年1月1日凌晨，當你收到行程預約時，如達預計到達上車點時間為10分鐘或以上，此程即享 HK$65 最低車資保證！"
+        desc1="直至2018年1月1日凌晨，當你收到行程預約時，如到達上車點的時間預計為10分鐘或以上，此程即享 HK$65 最低車資保證！"
         desc2=""
-        to="/upsidedowntrip"
+        to="/longtrip-bonus"
       />
       <HalfWidthPost
         id="dec-event"

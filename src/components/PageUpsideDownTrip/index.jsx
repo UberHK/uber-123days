@@ -18,7 +18,7 @@ const Li = styled.li`
 
 const PageUpsideDownTrip = () => (
   <PagePost
-    back="#upsidedowntrip"
+    back="#longtrip-bonus"
     title="遠程接單車資保證"
     introduction="直至2018年1月1日凌晨，當你收到行程預約時，如達預計到達上車點時間為10分鐘或以上，此程即享 HK$65 最低車資保證！"
   >
@@ -28,8 +28,8 @@ const PageUpsideDownTrip = () => (
         <Paragraph>
           乘客上車點與你當時位置相差較遠時，猶豫接不接單？由即日起至2018年1月1日上午四時，當你收到
           uberX 及 uberASSIST
-          行程預約時，如果螢幕顯示到達上車點的時間預計為10分鐘或以上，此程即享
-          HK$65 最低車資保證！
+          行程預約時，如果到達上車點的時間預計為10分鐘或以上，此程即享 HK$65
+          最低車資保證！
         </Paragraph>
         <h3>計劃詳情</h3>
         <ul>

@@ -19,7 +19,7 @@ const Li = styled.li`
 
 const PageGiveaway = () => (
   <PagePost
-    back="#giveaway"
+    back="#freetrip-giveaway"
     title="聖誕新年星級行程大賞"
     introduction="你給乘客的星級行程，換 Uber 送你的星級旅程。"
   >
@@ -37,7 +37,7 @@ const PageGiveaway = () => (
           <Li>本活動最終解釋和決定權歸Uber所有。</Li>
         </ul>
         <p>
-          * <Link to="/giveaway-terms">條款及細則</Link>
+          * <Link to="/freetrip-giveaway-terms">條款及細則</Link>
         </p>
       </Container>
       <Container padding="3rem">

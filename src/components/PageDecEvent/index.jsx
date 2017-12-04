@@ -11,6 +11,15 @@ import Container from '../Container';
 import PrimaryImage from '../PagePost/PrimaryImage';
 import SuggestedPage from '../PagePost/SuggestedPage';
 
+const A = styled.a`
+  display: inline-block;
+  background-color: #d21618;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+`;
+
 const PageDecEvent = () => (
   <PagePost
     back="#dec-event"
@@ -32,6 +41,15 @@ const PageDecEvent = () => (
           日期及時間：12月9日 （星期六）12:00 - 7:00 pm<br />
           地點： 飛龍室內足球場<br />
           地址： 九龍觀塘觀塘道398-402號嘉域大廈6樓
+        </Paragraph>
+        <Paragraph>
+          <A
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfVDPR8m9IaSt0yMHIlQU_mdDsimWQR3Kk8MVuW4BZuZmca5w/viewform"
+          >
+            了解更多
+          </A>
         </Paragraph>
         <PrimaryImage src={require('./images/soccer-stadium.jpg')} />
         <h3>活動回顧 - 《正義聯盟》電影放送會</h3>
