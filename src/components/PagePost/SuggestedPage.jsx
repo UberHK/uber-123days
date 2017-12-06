@@ -11,6 +11,7 @@ import SVGArrow from '../SVGArrow';
 
 const SuggestedPage = styled(Link)`
   display: inline-block;
+  vertical-align: top;
   width: 100%;
   height: 10rem;
   color: #fff;

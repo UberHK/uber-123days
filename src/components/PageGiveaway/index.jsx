@@ -43,7 +43,7 @@ const PageGiveaway = () => (
       <Container padding="3rem">
         <h3>其他相關活動</h3>
         <SuggestedPage
-          to="/upsidedowntrip"
+          to="/longtrip-bonus"
           bg={require('../PageHome/images/upsidedowntrip.jpg')}
         >
           遠程接單車資保證
