@@ -216,17 +216,17 @@ const PageGiveawayTerms = () => (
         </p>
         <p>How to use your Coupon</p>
         <ul>
-          <Li>
+          <li>
             During the booking process, on the payment page you will see the
             link “Enter a voucher code” where you can enter the coupon code.
-          </Li>
-          <Li>
+          </li>
+          <li>
             Enter the coupon code specified above in the relevant field and then
             click the “Apply Voucher” button. If your booking is eligible, the
             applicable discount will be subtracted from the price of the travel
             reservation before the application of any taxes, tax recovery
             charges, applicable fees or additional costs.
-          </Li>
+          </li>
         </ul>
         <h4>B - TERMS AND CONDITIONS</h4>
         <Ol>
@@ -238,9 +238,8 @@ const PageGiveawayTerms = () => (
             (e.g. flight + hotel + car packages or packages offered by third
             parties), hotel-only bookings, or flight-only bookings. The Coupon
             can only be used for pre-pay bookings and cannot be redeemed against
-            bookings which are
+            bookings which are paid at the destination.
           </Li>
-          paid at the destination.
           <Li>
             The Coupon cannot be redeemed against bookings which are not for
             Eligible Hotels. An “Eligible Hotel” refers to a hotel labelled
