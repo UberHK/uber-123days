@@ -49,7 +49,7 @@ const EventsStage2 = () => (
         id="lost-and-found"
         imgUrl={require('./images/lost_and_found.png')}
         title="路不拾遺獎勵計劃"
-        desc1="即日起至12月31日，只要將失物送到 Uber 服務中心，在乘客取回物品後你將獲 HK$100 獎勵。"
+        desc1="即日起至1月31日，只要將失物送到 Uber 服務中心，在乘客取回物品後你將獲 HK$100 獎勵。"
         desc2=""
         to="/lost-and-found"
       />
